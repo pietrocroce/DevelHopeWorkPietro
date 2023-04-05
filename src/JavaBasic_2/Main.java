@@ -3,27 +3,44 @@ package JavaBasic_2;
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
+    //Run this like before to execute all the exercises
     public static void main(String[] args) {
-        exerciseone();
-        exercisetwo();
-        exercisethree();
+        exercise1();
+        exercise2();
+        exercise3();
     }
-    public static void exerciseone(){
-    System.out.println("Hello Pietro");
+
+    /**
+     * 1: Change (my name) to your name
+     */
+    public static void exercise1() {
+        System.out.println("Exercise 1: ");
+        System.out.println("Hello Pietro!"); //<--- Edit this line
     }
-    public static void exercisetwo(){
-        System.out.println("Hello");
-        System.out.println("Pietro");
+
+    /**
+     * 2: Add a new println statement underneath this and put your name in it,
+     * this result should look exactly the same as in exercise one if done
+     * correctly!
+     */
+    public static void exercise2() {
+        System.out.println("\nExercise 2: ");
+        System.out.print("Hello");
+        //Write code underneath this
+        System.out.print(" Pietro");
+        //Write code above this
     }
-    public static void exercisethree(){
-        System.out.print("This should");
-        System.out.print("appear");
+
+    /**
+     * 3: Edit this code so when it 'prints' to the console, it all appears on the same line!
+     * Expected print = 'This should all appear on the same line'
+     */
+    public static void exercise3() {
+        System.out.println("\nExercise 3: ");
+        // Change the code below here
+        System.out.print("This should ");
+        System.out.print("all appear ");
         System.out.print("on the same line");
+        // and above here
     }
-
-
-
-
-
-
 }
