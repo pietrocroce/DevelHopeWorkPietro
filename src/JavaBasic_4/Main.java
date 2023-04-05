@@ -1,6 +1,6 @@
 package JavaBasic_4;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         exercise1();
         exercise2();
