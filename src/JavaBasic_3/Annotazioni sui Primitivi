@@ -1,0 +1,7 @@
+Ci sono 4 tipi di primitivi essenziali: int,boolean,char,double
+int:numeri interi;
+int MyAge = 32;
+boolean= se sono veri o falsi;
+boolean hadhaveLunchToday = true;
+char= quando vuoi immettere soltanto un carattere che sia simbolo,numero o lettera
+char FirstLetter = 'A','1','!'

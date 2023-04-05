@@ -1,0 +1,46 @@
+//quando si usa una variabile, la si può utilizzare anche per fare delle operazioni, come qui di seguito
+
+public class main {
+    public static void main(String[] args) {
+    int startingAge = 30;
+    int finishAge = startingAge + 1;
+    System.out.println("My starting age is "+ startingAge + "My finish age is "+ finishAge)
+        }
+    }
+    //si possono effettuare diverse operazioni
+    //sommare = +
+    //sottazioni = -
+    //divisioni = /
+    //moltiplicazioni = *
+
+   // E' molto diffuso usato in Java usare delle variabili per rendere il nostro codice più veloce e leggibile
+   // ad esempio sostituendolo a dei valori che stiamo calcolando
+
+    public class main {
+        public static void main(String[] args) {
+        int parentAgeOne = 55;
+        int parentAgeTwo = 65;
+
+        //qui voglio sapere il totale dell'età dei miei genitori
+
+        int sumParentsAge = parentAgeOne + parentAgeTwo;
+        System.out.println("The total of my parents age is "+ sumParetsAge);
+            }
+        }
+//un'altra operazione che potresti trovarti è quella di tro vare il resto di un numero come ad esempio
+
+public class main {
+    public static void main(String[] args) {
+    int bottlesofmilk = 13;
+    int restofmilkleft = bottlesofmilk % 4               //Nota bene: il segno % sta indicare il resto non la divisione
+    System.out.println(" The rest of mil is "+ restofmilk)
+        }
+    }
+    //Risultato sarà 1
+public class main {
+    public static void main(String[] args) {
+    int age = 32;
+    //vogliamo aumentarla di 1, lo possiamo scrivere in diversi modi
+    age ++ (age --)
+    age += 1   (age -=1)
+    age = age + 1   ( age = age - 1)
