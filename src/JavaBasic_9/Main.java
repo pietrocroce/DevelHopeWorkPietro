@@ -60,11 +60,12 @@ public class Main {
      */
     private static void exercise3() {
         System.out.println("\nExercise 3:");
-        double ourDouble = 3.5;
+        double ourDouble = 1.5;
         if(ourDouble > 2.5){
             System.out.println("Greater than");
         }else {
-            if ((ourDouble + 1) < 2.5) {
+            ourDouble += 1;
+            if (ourDouble < 2.5) {
                 System.out.println("Still less than");
             }else {
                 System.out.println("Now greater than");
