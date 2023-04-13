@@ -95,7 +95,12 @@ public class Main {
             int insertNumber = 20;
 
             switch (insertNumber) {
-                case 2, 3, 5, 7, 13, 17 -> System.out.println("This is the nth largest prime number under 20");
+                case 2 -> System.out.println("This is the 8nth largest prime number under 20");
+                case 3 -> System.out.println("This is the 7nth largest prime number under 20");
+                case 5 -> System.out.println("This is the 6nth largest prime number under 20");
+                case 7 -> System.out.println("This is the 5nth largest prime number under 20");
+                case 13  -> System.out.println("This is the third largest prime number under 20");
+                case 17 -> System.out.println("This is the second largest prime number under 20");
                 case 19 -> System.out.println("This the largest prime number under 20");
                 case 11 -> System.out.println("This is the 4th largest prime number under 20");
                 default -> System.out.println("Invalid entry");
